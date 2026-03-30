@@ -38,7 +38,6 @@ A lightweight, always-on-top Python overlay for **Age of Empires II: Definitive 
 - Python 3.7+
 - `pynput` (for global hotkeys)
 
-`tkinter` is included with Python on Windows — no extra install needed.
 
 ---
 
