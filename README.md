@@ -43,17 +43,34 @@ A lightweight, always-on-top Python overlay for **Age of Empires II: Definitive 
 
 ## Installation
 
-```bash
-# 1. Clone or download this repo
-git clone https://github.com/yourusername/aoe2-overlay.git
-cd aoe2-overlay
+**1. Install Python** (if you don't have it)
 
-# 2. Install the one dependency
+Download from [python.org/downloads](https://www.python.org/downloads/) and run the installer.
+> ⚠️ On the first screen, check **"Add Python to PATH"** before clicking Install.
+
+**2. Install the one dependency**
+
+Open **Command Prompt** (`Win + R` → type `cmd` → Enter) and run:
+
+```
 pip install pynput
+```
 
-# 3. Run
+**3. Download this repo**
+
+Click the green **Code** button on this page → **Download ZIP** → extract it somewhere.
+
+**4. Run the overlay**
+
+In Command Prompt, navigate to the folder and run:
+
+```
 python aoe2_overlay.py
 ```
+
+Or just double-click `aoe2_overlay.py` if Python is associated with `.py` files on your system.
+
+---
 
 ---
 
@@ -122,13 +139,6 @@ Also add a short label to the `BO_SHORT` list so the tab fits in the window:
 BO_SHORT = ["FC", "Scouts", "Archers", "MAA", "Boom", "MyBO"]
 ```
 
----
-
-## macOS Note
-
-`pynput` requires Accessibility permissions on macOS to listen for global keypresses.
-
-Go to **System Settings → Privacy & Security → Accessibility** and add your Terminal (or Python) to the list.
 
 ---
 
