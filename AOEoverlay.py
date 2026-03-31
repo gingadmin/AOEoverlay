@@ -17,7 +17,7 @@ from pynput import keyboard as pynput_kb
 # ─────────────────────────────────────────────
 # HOTKEY CONFIG  (safe keys not used by AoE2)
 # Options: Key.page_down, Key.page_up, Key.f9,
-#          Key.f10, Key.f12, Key.insert, Key.pause
+#          Key.f10, Key.f12, Key.insert
 # ─────────────────────────────────────────────
 HOTKEY_NEXT = pynput_kb.Key.page_down
 HOTKEY_PREV = pynput_kb.Key.page_up

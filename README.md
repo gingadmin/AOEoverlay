@@ -98,7 +98,7 @@ HOTKEY_NEXT = pynput_kb.Key.page_down
 HOTKEY_PREV = pynput_kb.Key.page_up
 ```
 
-Other safe options: `Key.f9`, `Key.f10`, `Key.f12`, `Key.insert`, `Key.pause`
+Other safe options: `Key.f9`, `Key.f10`, `Key.f12`, `Key.insert`
 
 ---
 
