@@ -43,17 +43,29 @@ A lightweight, always-on-top Python overlay for **Age of Empires II: Definitive 
 
 ## Installation
 
+### Option A — Download the .exe *(easiest)*
+
+1. Go to the [Releases page](../../releases)
+2. Download `aoe2_overlay.exe` from the latest release
+3. Double-click it — that's it
+
+No Python, no Command Prompt, nothing else to install.
+
+---
+
+### Option B — Run from source *(for developers or customizing build orders)*
+
 **1. Install Python** (if you don't have it)
 
 Download from [python.org/downloads](https://www.python.org/downloads/) and run the installer.
 > ⚠️ On the first screen, check **"Add Python to PATH"** before clicking Install.
 
-**2. Install the one dependency**
+**2. Install dependencies**
 
 Open **Command Prompt** (`Win + R` → type `cmd` → Enter) and run:
 
 ```
-pip install pynput
+pip install -r requirements.txt
 ```
 
 **3. Download this repo**
@@ -62,7 +74,7 @@ Click the green **Code** button on this page → **Download ZIP** → extract it
 
 **4. Run the overlay**
 
-In Command Prompt, navigate to the folder and run:
+In Command Prompt, navigate to the extracted folder and run:
 
 ```
 python aoe2_overlay.py
@@ -71,7 +83,6 @@ python aoe2_overlay.py
 Or just double-click `aoe2_overlay.py` if Python is associated with `.py` files on your system.
 
 ---
-
 ---
 
 ## Controls
