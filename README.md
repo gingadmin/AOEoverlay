@@ -8,6 +8,12 @@ A lightweight, always-on-top Python overlay for **Age of Empires II: Definitive 
 
 ---
 
+## Download
+
+**Just want to run it?** Grab the latest `aoe2_overlay.exe` from the [Releases page](../../releases) — no Python install required. Just double-click and go.
+
+**Want to run from source or add your own build orders?** See the [Installation](#installation) section below.
+
 ## Features
 
 - **5 build orders** included out of the box
@@ -53,36 +59,43 @@ No Python, no Command Prompt, nothing else to install.
 
 ---
 
-### Option B — Run from source *(for developers or customizing build orders)*
+### Option B — Run from source
 
 **1. Install Python** (if you don't have it)
 
 Download from [python.org/downloads](https://www.python.org/downloads/) and run the installer.
 > ⚠️ On the first screen, check **"Add Python to PATH"** before clicking Install.
 
-**2. Install dependencies**
+**2. Download this repo**
 
-Open **Command Prompt** (`Win + R` → type `cmd` → Enter) and run:
+Click the green **Code** button on this page → **Download ZIP** → extract the folder somewhere (e.g. your Desktop).
+
+**3. Navigate to the folder in Command Prompt**
+
+Open **Command Prompt** (`Win + R` → type `cmd` → Enter), then type `cd` followed by the path to the extracted folder. For example:
+
+```
+cd C:\Users\Paul\Desktop\aoe2-overlay
+```
+
+> 💡 Tip: you can drag the folder from File Explorer into the Command Prompt window and it will paste the path for you.
+
+**4. Install dependencies**
+
+Now that Command Prompt is in the right folder, run:
 
 ```
 pip install -r requirements.txt
 ```
 
-**3. Download this repo**
-
-Click the green **Code** button on this page → **Download ZIP** → extract it somewhere.
-
-**4. Run the overlay**
-
-In Command Prompt, navigate to the extracted folder and run:
+**5. Run the overlay**
 
 ```
 python aoe2_overlay.py
 ```
 
-Or just double-click `aoe2_overlay.py` if Python is associated with `.py` files on your system.
+Or just double-click `aoe2_overlay.py` in File Explorer if Python is associated with `.py` files on your system.
 
----
 ---
 
 ## Controls
@@ -150,7 +163,7 @@ Also add a short label to the `BO_SHORT` list so the tab fits in the window:
 BO_SHORT = ["FC", "Scouts", "Archers", "MAA", "Boom", "MyBO"]
 ```
 
-
 ---
 
 ## Not affiliated with Microsoft or Ensemble Studios. Age of Empires II is a trademark of Microsoft Corporation.
+
